@@ -3,6 +3,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: rgb(168, 168, 168);
+  font-family: "Rampart One", cursive;
 }
 
 .calculator {
@@ -25,18 +26,18 @@ h1 {
 
 button {
   width: 130px;
-  height: 87px;
+  height: 85px;
   color: #fff;
   background-color: rgb(54, 54, 54);
   outline: none;
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 500;
   border-radius: 10px;
 }
 .clear {
-  width: 410%;
   background-color: rgb(201, 73, 26);
 }
+
 #screen {
   width: 529px;
   height: 107px;
@@ -48,27 +49,18 @@ button {
   background-color: rgb(201, 73, 26);
 }
 
-@media(max-width:590px){
-  body{
+@media (max-width: 590px) {
+  body {
     margin-top: 70px;
   }
   button {
     width: 61px;
     height: 44px;
+    font-size: 20px;
   }
-  .clear {
-    width: 423%;
-  }
+
   #screen {
     width: 254px;
-    height: 88px;  
-}
-.calculator {
-  border: 2px solid black;
-  display: inline-block;
-  border-radius: 10px;
-  outline: none;
-  background-color: rgb(54, 54, 54);
-  box-shadow: 2px 2px 5px black;
-}
+    height: 88px;
+  }
 }
