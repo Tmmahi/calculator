@@ -12,9 +12,9 @@ for (item of button) {
       screen.value = "";
     } else if (buttonText == "÷") {
       buttonText = "/";
-    } else if (buttonText == "+/-") {
-      buttonText = "";
       screen.value += buttonText;
+    } else if (buttonText == "+/-") {
+      buttonText = "";     
     } else if (buttonText == "=") {
       screen.value = eval(screen.value);
     } else if (buttonText == "√") {
