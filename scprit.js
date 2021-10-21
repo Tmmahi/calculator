@@ -8,11 +8,11 @@ for (item of button) {
     if (buttonText == "x") {
       buttonText = "*";
       screen.value += buttonText;
-    } else if (buttonText == "C") {
-      screen.value = "";
     } else if (buttonText == "÷") {
       buttonText = "/";
       screen.value += buttonText;
+    } else if (buttonText == "C") {
+      screen.value = "";
     } else if (buttonText == "+/-") {
       buttonText = "";     
     } else if (buttonText == "=") {
